@@ -1,4 +1,5 @@
-# Vulnseach
+Vulnseach
+================
 
 **version 0.1 - wip**
 
@@ -8,11 +9,12 @@ This is still a work in progress
 
 if you have any issues let me know 
 
-### Useage
+Useage
+------------
 
-Windows Only 
+**Windows Only**
 
-install autohotkey 
+install autohotkey - https://www.autohotkey.com/
 
 git clone this repo
 
