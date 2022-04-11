@@ -6,6 +6,8 @@ give it a term and it will open browser searching for it
 to do
 	interace can tick on/off the sources
 	search all option
+	have it so cancel button workss
+	if nothing given it work work too 
 	get the sources to be quality
 
 */
@@ -37,15 +39,14 @@ url13="https://vuldb.com/?search"
 url14="https://www.rapid7.com/db/?q=%UserInput%&type="
 url15="https://www.exploitalert.com/search-results.html?search=%UserInput%"
 
+
 ; want to ad in 
 ;https://vuldb.com/
 
 
-if ErrorLevel
-    MsgBox, CANCEL was pressed.
-else
-	Run %Browser% -new-window %url1% %url2% %url3% %url4% %url5% %url7% %url9% %url10% %url11% %url12% %url13% %url14% %url15%
+Run %Browser% -new-window %url1% %url2% %url3% %url4% %url5% %url7% %url9% %url10% %url11% %url12% %url13% %url14% %url15%
 
 
 ; tests
 ; Jetty 9.4.27.v20200227
+
